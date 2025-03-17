@@ -8,3 +8,4 @@ prcVtvalido = (vtValido / ttEleitores) * 100, "%"
 
 print("A quantidade em percentual de brancos é: ", prcVtBranco, "em nulos é: ",
        prcVtNulo, "e em válidos é: ",prcVtvalido)
+print("Total de eleitores foi de: ",ttEleitores)
