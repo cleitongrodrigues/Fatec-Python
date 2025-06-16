@@ -1,17 +1,10 @@
 from random import randint
+  
+numeros = [0] * 6
 
-numeros = []
-pares = 0
-impares = 0
-for i in range(10):
-    numeros.append(randint(1, 50))
-
-for num in numeros:
-    if num % 2 == 0:
-        pares += 1
-    else:
-        impares += 1
-
-print("Números gerados:", numeros)
-print("Total de números pares:", pares)
-print("Total de números ímpares:", impares)
+for i in range(6):
+    numeros[i] = [0] * 6
+    for j in range(6):
+        numeros[i][j] = randint(1,50)
+        if numeros[i][j] % 2 != 0:
+            print(numeros[i][j])        
