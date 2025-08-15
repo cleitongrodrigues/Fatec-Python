@@ -34,3 +34,8 @@ hoje = int (input("informe ano atual "))
 idade = hoje - nasc
 print("Olá, %s" %nome)
 print("você possui em torno de %d anos de idade" %idade)
+
+
+lista = [5, 3, 1, 3, 2, 5, 4, 1, 2, 6]
+lista_sem_duplicatas = list(dict.fromkeys(lista))
+print(lista_sem_duplicatas)  # [5, 3, 1, 2, 4, 6]
